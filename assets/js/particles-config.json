@@ -1,0 +1,50 @@
+
+
+{
+  "particles": {
+    "number": {
+      "value": 20,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "shape": {
+      "type": "image",
+      "image": {
+        "src": "assets/imagens/white-butterfly.png",
+        "width": 64,
+        "height": 64
+      }
+    },
+    "opacity": {
+      "value": 0.9,
+      "random": false
+    },
+    "size": {
+      "value": 24,
+      "random": true
+    },
+    "move": {
+      "enable": true,
+      "speed": 0.7,
+      "direction": "right",
+      "random": false,
+      "straight": false,
+      "out_mode": "out"
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "onclick": {
+        "enable": false
+      }
+    }
+  },
+  "retina_detect": true
+}
