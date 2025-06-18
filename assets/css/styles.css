@@ -130,6 +130,7 @@ h1, h2, h3 {
 
 p, span, li {
   font-size: 1rem;
+  color: var(--text-color);
 }
 
 p {
